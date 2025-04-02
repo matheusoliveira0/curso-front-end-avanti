@@ -1,0 +1,47 @@
+.hide {
+    display: none;
+}
+a {
+    background-color: burlywood;
+    padding: 30px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: brown;
+}
+.content-flex {
+    display: flex;
+    width: 1280px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content-flex p{
+    padding: 30px;
+    width: 250px;
+}
+
+.content-flex p:first-child {
+    font-weight: bold;
+}
+
+.content-flex p::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: brown;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.content-flex p::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: brown;
+    display: inline-block;
+    margin-left: 20px;
+}
+

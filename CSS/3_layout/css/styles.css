@@ -1,0 +1,121 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Anek Telugu", sans-serif;
+}
+
+/* Formatação geral das tags */
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/*  classes gerais */
+
+
+.container {
+    width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+/*  header */
+
+header {
+    background-color: #666;
+    padding: 10px;
+    
+}
+
+/* menu de navegação */
+
+nav {
+    background-color: #eee;
+    /* padding: 15px 0; */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    transition: all ease-in-out 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* main */
+
+main {
+    padding: 10px 0;
+}
+
+main section {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #ddd;
+}
+
+main section#tecnologia{
+    background-color: #fff;
+}
+
+main section article {
+    margin: 20px 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px 
+}
+
+main section h2 {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+main section p {
+    margin: 20px 0;
+}
+
+main section a {
+    background-color: #666;
+    color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #666;
+    color: #eee;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    letter-spacing: 1px;
+}
+
+
+/* sobre */
