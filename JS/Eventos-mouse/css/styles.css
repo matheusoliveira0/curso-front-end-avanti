@@ -1,0 +1,8 @@
+.hide {
+    color: white;
+    display: none;
+}
+.show {
+    color: black;
+    display: block;
+}
