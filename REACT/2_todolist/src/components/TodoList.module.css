@@ -1,0 +1,81 @@
+/* container principal */
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+/* titulo */
+
+.title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+
+}
+
+/* ipnput e botao */
+
+.inputContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    background: #fff;
+    color: #333;
+}
+
+.input:focus{
+    border-color: #005b63;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 16px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #005b63;
+}
+
+/* lista de tarefas */
+
+.taskList {
+    list-style: none;
+    padding: 0;
+}
+
+.taskItem {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom:8px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    color: #333
+}
+
+.taskItem:hover {
+    background-color: #e9ecef;
+}
