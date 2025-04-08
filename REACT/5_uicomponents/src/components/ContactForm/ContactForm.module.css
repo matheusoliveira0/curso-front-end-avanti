@@ -1,0 +1,48 @@
+.form {
+    width: 100%;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    resize: none;
+}
+
+.input:focus, textarea:focus{
+    border-color: #007bff;
+    box-shadow: 0 0 5px rbga(0,123,255,0.3);
+    outline: none;
+}
+
+.textarea{
+    min-height: 120px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 50%;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
